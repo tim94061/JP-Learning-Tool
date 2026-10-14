@@ -1,5 +1,5 @@
-import json
-import random # 匯入隨機亂數用
+import json #匯入json 我字典檔用的宣告
+import random # 匯入隨機亂數用的宣告
 
 with open("hiragana_2.json", "r", encoding="utf-8") as f:
     dict50 = json.load(f)
